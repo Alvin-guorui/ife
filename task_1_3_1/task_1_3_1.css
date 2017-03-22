@@ -1,0 +1,44 @@
+h1{
+	text-align: center;
+}
+div{
+	background-color: #eee;
+	padding: 20px;
+	border: 1px solid #999;
+	overflow: hidden;
+}
+p{
+	text-indent: 2em;
+}
+aside{
+	width: 200px;
+	background-color: white;
+	border: 1px solid #999;
+	padding: 20px;
+	float: left;
+}
+aside img{
+	float: left;
+}
+aside h2{
+	margin-left: 90px;
+}
+#main{
+	background-color: white;
+	border: 1px solid #999;
+	padding: 20px;
+	margin-right: 180px;
+	margin-left: 260px;
+}
+#pic{
+	width: 120px;
+	padding: 20px;
+	background-color: white;
+	border: 1px solid #999;
+	float: right;
+}
+@media screen and (max-width: 600px) {
+	#main {
+		display: none;
+	}
+}
